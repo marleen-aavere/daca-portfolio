@@ -1,7 +1,7 @@
-# DACA Portfoolio -- [Marleen Aavere]
+# DACA Portfoolio -- Marleen Aavere
 
 ## Minust
-[Olen hariduselt logistik ja töötanud ostuspetsialistina ligi 8 aastat. Andmete töötlemisel ja käsitlemisel olen algtasemel. Andmed on mulle alati huvi pakkunud ning otsustasin, et soovin õppida, kuidas andmeid lugeda, töödelda, visualiseerida.]
+Olen hariduselt logistik ja töötanud ostuspetsialistina ligi 8 aastat. Andmete töötlemisel ja käsitlemisel olen algtasemel. Andmed on mulle alati huvi pakkunud ning otsustasin, et soovin õppida, kuidas andmeid lugeda, töödelda, visualiseerida.
 
 ## Eesmärk
 Õppida andmeanalüüsi -- SQL, Python, visualiseerimine -- ja ehitada professionaalne portfoolio.
