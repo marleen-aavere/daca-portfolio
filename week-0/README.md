@@ -1,37 +1,19 @@
-# DACA Portfolio
+# DACA Portfoolio -- Marleen Aavere
 
-**Programm:** Data Analyst Career Accelerator (DACA)
+## Minust
+Olen hariduselt logistik ja töötanud ostuspetsialistina ligi 8 aastat. Andmete töötlemisel ja käsitlemisel olen algtasemel. Andmed on mulle alati huvi pakkunud ning otsustasin, et soovin õppida, kuidas andmeid lugeda, töödelda, visualiseerida.
 
-**Osaleja:** Marleen Aavere
+## Eesmärk
+Õppida andmeanalüüsi -- SQL, Python, visualiseerimine -- ja ehitada professionaalne portfoolio.
 
-**Algus:** November 2026
-
-## Kirjeldus
-
-See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
-
-## Projektid
-
-### Week 0: Onboarding
-- GitHubi seadistamine
-- Supabase seadistamine
-
-### Week 1: SQL Põhitööd
-- SQL-i põhikäskude õppimine
-- PostgreSQL andmebaasi loomine
-- Tabelite loomine ja andmete sisestamine
-- SELECT päringud
-
-### Week 2: SQL Andmete Puhastamine
-- (tulemas...)
-
-## Oskused
-
-- **SQL:** PostgreSQL, Supabase
-- **Python:** pandas, plotly (tulemas...)
-- **Visualiseerimine:** Power BI / Streamlit (tulemas...)
-- **Tööriistad:** GitHub, VS Code
-
-## Kontakt
-
-- **GitHub:** https://github.com/marleen-aavere
+## Nädala kaupa
+| Nädal | Teema | Staatus |
+|-------|-------|---------|
+| 0 | Onboarding | Käimas |
+| 1 | SQL Basics | Tulemas |
+| 2 | SQL Cleaning | Tulemas |
+| 3 | SQL JOINs | Tulemas |
+| 4 | SQL Aggregation | Tulemas |
+| 5-6 | Visualiseerimine | Tulemas |
+| 7-8 | Python | Tulemas |
+| 9-10 | Portfoolio + Karjäär | Tulemas |
