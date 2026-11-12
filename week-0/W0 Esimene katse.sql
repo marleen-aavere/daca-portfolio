@@ -1,0 +1,1 @@
+SELECT 'Tere, UrbanStyle!' AS tervitus, NOW() AS aeg;
