@@ -10,7 +10,7 @@ Olen hariduselt logistik ja töötanud ostuspetsialistina ligi 8 aastat. Andmete
 | Nädal | Teema | Staatus |
 |-------|-------|---------|
 | 0 | Onboarding | Käimas |
-| 1 | SQL Basics | Tulemas |
+| 1 | SQL Basics | Käimas |
 | 2 | SQL Cleaning | Tulemas |
 | 3 | SQL JOINs | Tulemas |
 | 4 | SQL Aggregation | Tulemas |
