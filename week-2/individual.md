@@ -11,7 +11,7 @@
 ### Individual
 
 - NotebookLM märkmikku "DACA Õppematerjalid" lisatud 2 RAG faili juurde, kokku 8 faili ning AI tegi mulle ka teadmiste kontrolli
-![Test sales tabel](images/Notebook.png)
+![Notebook](images/Notebook.png)
 - Harjutused duplikaatide tuvastamisel — kuidas `GROUP BY` + `HAVING` ja `ROW_NUMBER()` aitavad leida topeltridu
 - Harjutused NULL väärtuste käsitlemisel — kuidas `IS NULL`, `COALESCE` ja `NULLIF` muudavad puuduvad andmed hallatavaks
 - Harjutused andmeformaatide ühtlustamisel — kuidas `TRIM`, `INITCAP` ja `TO_CHAR` tagavad, et andmed on korrektsed
@@ -25,7 +25,7 @@
 - Leidsin, et customer_id puudub 1487 real ehk ligi 10% müükidest on külalisostud
 - Leidsin veel, et tuleviku kuupäevi ei leitud (0), kuid 50 müüki on dateeritud pärast andmete lõppu 2025-02-28. Pärast duplikaatide eemaldamist on neid 32
 - Lõin test koopia, puhastasin ja dokumenteerisin kõik muudatused
-![Test sales tabel](images/Müügiandmete_puhastamine.png)
+![Puhastamine](images/Müügiandmete_puhastamine.png)
 
 ## Mida ma õppisin?
 
