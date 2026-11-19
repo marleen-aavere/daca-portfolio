@@ -11,9 +11,8 @@
 
 ## Minu panus
 
-- Leidsin duplikaadid, NULL väärtused ja vigased kuupäevad `sales` tabelist
-- Lõin test koopia, puhastasin ja dokumenteerisin kõik muudatused
-- Tegin presentatsiooni slaidid
+- Leidsin duplikaadid sales tabelist, NULL väärtused ja vigased kuupäevad `sales` tabelist
+- Lõin test koopia sales_test, puhastasin ja dokumenteerisin kõik muudatused
 
 ## Tulemused
 

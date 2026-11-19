@@ -10,20 +10,22 @@
 
 ### Individual
 
-- NotebookLM märkmikku "DACA Õppematerjalid" lisatud 2 RAG faili juurde, kokku 8 faili
+- NotebookLM märkmikku "DACA Õppematerjalid" lisatud 2 RAG faili juurde, kokku 8 faili ning AI tegi mulle ka teadmiste kontrolli
+![Test sales tabel](images/Notebook.png)
 - Harjutused duplikaatide tuvastamisel — kuidas `GROUP BY` + `HAVING` ja `ROW_NUMBER()` aitavad leida topeltridu
 - Harjutused NULL väärtuste käsitlemisel — kuidas `IS NULL`, `COALESCE` ja `NULLIF` muudavad puuduvad andmed hallatavaks
 - Harjutused andmeformaatide ühtlustamisel — kuidas `TRIM`, `INITCAP` ja `TO_CHAR` tagavad, et andmed on korrektsed
 - Puhastamisraport Toomasele (duplikaatide raport, NULL väärtuste raport ja formaatide diagnostika)
-- Lugesin raamatut
-- Tegin harjutusi meie õppekeskkonnas Learn
+- Lugesin raamatut 'Storytelling with data'
 
 ### Grupitöö (Sales Analytics team)
 
 - Roll: müügiandmete puhastaja
-- Leidsin duplikaadid (5116), NULL väärtused (1487) ja vigased kuupäevad `sales_test` tabelist
+- Leidsin duplikaadid sales tabelist (5116), peale puhastamist jäi alles 10 118 unikaalset rida.
+- Leidsin, et customer_id puudub 1487 real ehk ligi 10% müükidest on külalisostud
+- Leidsin veel, et tuleviku kuupäevi ei leitud (0), kuid 50 müüki on dateeritud pärast andmete lõppu 2025-02-28. Pärast duplikaatide eemaldamist on neid 32
 - Lõin test koopia, puhastasin ja dokumenteerisin kõik muudatused
-- Tegin presentatsiooni slaidid
+![Test sales tabel](images/Müügiandmete_puhastamine.png)
 
 ## Mida ma õppisin?
 
