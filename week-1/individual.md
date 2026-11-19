@@ -27,6 +27,7 @@
 
 - Roll: Müügikanalite uurija (Sales Dimensions Explorer)
 - Analüüsisin UrbanStyle müügiandmete tabelit SQL päringute abil, uurides müügikanaleid, asukohti ja makseviise
+![Müügikanalid ja asukohad](images/Müügikanalid_asukohad.png)
 
 ## Mida ma õppisin
 
