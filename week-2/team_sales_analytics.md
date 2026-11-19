@@ -11,8 +11,9 @@
 
 ## Minu panus
 
-- Leidsin duplikaadid sales tabelist, NULL väärtused ja vigased kuupäevad `sales` tabelist
-- Lõin test koopia sales_test, puhastasin ja dokumenteerisin kõik muudatused
+- Analüüsisin müügiandmeid tabelist sales_test, et tuvastada andmekvaliteedi probleeme ning tagada aruannete usaldusväärsus.
+- Leidsin duplikaadid, NULL väärtused ja vigased kuupäevad `sales_test` tabelist.
+- Lõin test koopia sales_test, puhastasin ja dokumenteerisin kõik muudatused.
 
 ## Tulemused
 
@@ -26,11 +27,18 @@
 | Kuupäevad pärast andmete lõppu | 50 | Kuupäev > 2025-02-28 (märgi, ära kustuta) |
 | **Kokku** | **6653** | |
 
+### Teostatud puhastamine
+- Eemaldasin duplikaadid, mille järel jäi alles 10 118 unikaalset rida.
+- Analüüsisin puuduvaid customer_id väärtusi ning tuvastasin, et tegemist on külalisostudega, mitte andmeveaga, seega need read säilitasin.
+- Kontrollisin kuupäevi andmete lõppkuupäeva suhtes.
+- Märgistasin andmete lõppkuupäevast hilisemad müügid, mida oli kokku 32 ning jätsin need analüüsist välja, kuid ei kustutanud.
+
+
 ## Järeldused
 
 Leidsin 5116 duplikaati ehk iga kolmas rida oli kordus, mis paisutas müügitulu ja tehingute arvu aruannetes. Pärast puhastamist jäi alles 10 118 unikaalset rida. Leidsin, et customer_id puudub 1487 real ehk ligi 10% müükidest on külalisostud, mitte andmevead, seega jätsin need alles. Leidsin veel, et tuleviku kuupäevi ei leitud (0), kuid 50 müüki on dateeritud pärast andmete lõppu 2025-02-28. Pärast duplikaatide eemaldamist on neid 32, mis märkisin üles ja jätsin analüüsist välja, kuid ei kustutanud. Analüüsiks sobib 10 086 rida. Äriliselt tähendab see, et eelmised müügiaruanded näitasid liiga suuri numbreid ja puhastatud andmetega on need usaldusväärsed.
 
 ## Soovitused Toomasele
 
-- Duplikaadid eemaldada
-- `customer_id` puuduvate väärtuste probleem lahendada
+- Duplikaadid eemaldada, kuna need moonutavad andmete õigsust.
+- Andmete lõppkuupäevast hilisemad kirjed vajavad edasist käsitlemist, et tagada nende korrektne kasutamine analüüsides. 
