@@ -23,6 +23,15 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 - SELECT päringud
 
 ### Week 2: SQL Andmete Puhastamine
+- Duplikaatide leidmine (GROUP BY, HAVING, ROW_NUMBER)
+- NULL väärtuste käsitlemine (IS NULL, COALESCE) ja 
+- Andmevormingute korrastamine (TRIM, INITCAP, CAST)
+- Puhastamisraport
+
+### Week 3: SQL Tabelite Ühendamine
+- (tulemas...)
+
+### Week 4: SQL Koondamine ja ärinäitajad
 - (tulemas...)
 
 ## Oskused
