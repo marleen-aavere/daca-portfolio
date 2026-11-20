@@ -31,12 +31,12 @@
 - Eemaldasin duplikaadid, mille järel jäi alles 10 118 unikaalset rida.
 - Analüüsisin puuduvaid customer_id väärtusi ning tuvastasin, et tegemist on külalisostudega, mitte andmeveaga. Peale puhastamist jäi alles 988 rida.
 - Kontrollisin kuupäevi andmete lõppkuupäeva suhtes.
-- Märgistasin andmete lõppkuupäevast hilisemad müügid, mida oli kokku 32 ning jätsin need analüüsist välja, kuid ei kustutanud.
+- Märgistasin andmete lõppkuupäevast hilisemad kuupäevad, mida oli kokku 32 ning jätsin need analüüsist välja, kuid ei kustutanud.
 
 
 ## Järeldused
 
-Leidsin 5116 duplikaati ehk iga kolmas rida oli kordus, mis paisutas müügitulu ja tehingute arvu aruannetes. Pärast puhastamist jäi alles 10 118 unikaalset rida. Leidsin, et customer_id puudub 1487 real ehk ligi 10% müükidest on külalisostud, mitte andmevead. Peale puhastamist jäi alles 988 rida. Leidsin veel, et tuleviku kuupäevi ei leitud (0), kuid 50 müüki on dateeritud pärast andmete lõppu 2025-02-28. Pärast duplikaatide eemaldamist on neid 32, mis märkisin üles ja jätsin analüüsist välja, kuid ei kustutanud. Analüüsiks sobib 10 086 rida. Äriliselt tähendab see, et eelmised müügiaruanded näitasid liiga suuri numbreid ja puhastatud andmetega on need usaldusväärsed.
+Leidsin 5116 duplikaati ehk iga kolmas rida oli kordus, mis paisutas müügitulu ja tehingute arvu aruannetes. Pärast puhastamist jäi alles 10 118 unikaalset rida. Leidsin, et customer_id puudub 1487 real ehk ligi 10% müükidest on külalisostud, mitte andmevead. Peale puhastamist jäi alles 988 rida. Leidsin veel, et tuleviku kuupäevi ei leitud (0), kuid 50 kuupäeva on dateeritud pärast andmete lõppu 2025-02-28. Pärast duplikaatide eemaldamist on neid 32, mis märkisin üles ja jätsin analüüsist välja, kuid ei kustutanud. Analüüsiks sobib 10 086 rida. Äriliselt tähendab see, et eelmised müügiaruanded näitasid liiga suuri numbreid ja puhastatud andmetega on need usaldusväärsed.
 
 ## Soovitused Toomasele
 

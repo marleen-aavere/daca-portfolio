@@ -54,7 +54,7 @@ WHERE sale_date > CURRENT_DATE
 SELECT COUNT(*) AS tuleviku_kuupaevad
 FROM sales_test
 WHERE sale_date > DATE '2025-02-28'
-   OR sale_date < DATE '2020-01-01'; -- 50 müüki pärast andmete lõppu
+   OR sale_date < DATE '2020-01-01'; -- 50 kuupäeva pärast andmete lõppu
 -- ============================================
 -- Samm 6
 -- ============================================
