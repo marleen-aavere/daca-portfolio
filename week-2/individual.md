@@ -22,7 +22,7 @@
 
 - Roll: müügiandmete puhastaja
 - Leidsin duplikaadid sales tabelist (5116), peale puhastamist jäi alles 10 118 unikaalset rida.
-- Leidsin, et customer_id puudub 1487 real ehk ligi 10% müükidest on külalisostud
+- Leidsin, et customer_id puudub 1487 real ehk ligi 10% müükidest on külalisostud, peale puhastamist jäi 988 rida
 - Leidsin veel, et tuleviku kuupäevi ei leitud (0), kuid 50 müüki on dateeritud pärast andmete lõppu 2025-02-28. Pärast duplikaatide eemaldamist on neid 32
 - Lõin test koopia, puhastasin ja dokumenteerisin kõik muudatused
 ![Puhastamine](images/Müügiandmete_puhastamine.png)
